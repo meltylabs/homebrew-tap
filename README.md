@@ -1,35 +1,17 @@
-# Homebrew Tap for Conductor
+# Conductor
 
-This is the official Homebrew tap for [Conductor](https://conductor.build/), a Mac app that lets you run coding agents in parallel.
+[Conductor](https://conductor.build/) is a Mac app that lets you run coding agents in parallel.
 
 ## Installation
 
-```bash
-brew install meltylabs/tap/conductor
-```
-
-Or install via URL:
-
-```bash
-brew tap meltylabs/conductor
-brew install conductor
-```
-
-## Updating
-
-```bash
-brew update
-brew upgrade conductor
-```
+Download the latest version from [conductor.build](https://conductor.build/).
 
 ## Uninstalling
 
-```bash
-brew uninstall conductor
-```
+Move Conductor.app to the Trash.
 
-To remove all associated data:
-
-```bash
-brew uninstall --zap conductor
-```
+To remove all associated data, delete these folders:
+- `~/Library/Application Support/com.conductor.app`
+- `~/Library/Caches/com.conductor.app`
+- `~/Library/Preferences/com.conductor.app.plist`
+- `~/Library/Saved Application State/com.conductor.app.savedState`
