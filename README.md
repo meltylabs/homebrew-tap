@@ -10,7 +10,7 @@ Download the latest version from [conductor.build](https://conductor.build/).
 
 Move Conductor.app to the Trash.
 
-To remove all associated data, delete these folders:
+To remove all associated data, delete these files and folders:
 - `~/Library/Application Support/com.conductor.app`
 - `~/Library/Caches/com.conductor.app`
 - `~/Library/Preferences/com.conductor.app.plist`
